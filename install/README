@@ -1,0 +1,8 @@
+install.ini => install cfg, you may need to modify it
+install.sh => install script, no need to modify
+response_sybase16.txt => default sybase install response cfg, no need to modify
+srvbuild.adaptive_server.rs => default main server cfg, no need to modify
+srvbuild.back_server.rs => default back server cfg, no need to modify
+sqlloc.rs => default charset cfg, no need to modify
+uninstall.sh => uninstall script, no need to modify
+bash_profile => new profile, no need to modify

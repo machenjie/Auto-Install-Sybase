@@ -1,0 +1,16 @@
+sybinit.release_directory: USE_DEFAULT
+sybinit.product: bsrv
+bsrv.server_name: ${SERVER_NAME}_back
+bsrv.new_config: yes
+bsrv.do_upgrade: no
+bsrv.do_add_backup_server: yes
+bsrv.network_protocol_list: tcp
+bsrv.network_hostname_list: ${LISTEN_IP}
+bsrv.network_port_list: ${LISTEN_BAK_PORT}
+bsrv.language: USE_DEFAULT
+bsrv.character_set: USE_DEFAULT
+bsrv.tape_config_file: USE_DEFAULT
+bsrv.errorlog: USE_DEFAULT
+sqlsrv.related_sqlsrv: LOCALHOST
+sqlsrv.sa_login: sa
+sqlsrv.sa_password: ${SA_PASSWD}
